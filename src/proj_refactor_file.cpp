@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : proj_refactor_file
-// Author      : 
-// Version     :
+// Author      : Julia Nichols
+// Version     : 9/17/21
 // Copyright   : Steal this code!
 // Description : learn how to refactor files into a sensible directory structure
 //============================================================================
