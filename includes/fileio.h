@@ -1,5 +1,4 @@
 #include "constants.h"
-#include <string>
 #include <vector>
 
 //attempt to open file 'filename' and read in all data
