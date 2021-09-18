@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 
+#ifndef CONSTANTS_H_
+#define CONSTANTS_H_
+
 //default files to read and write data
 const std::string SOURCE_FILE 	= "source_file.txt";
 const std::string RESULTS_FILE 	= "results_file.txt";
@@ -20,3 +23,4 @@ struct process{	int process_number=UNINITIALIZED;
 				int cpu_time=UNINITIALIZED;
 				int start_time=UNINITIALIZED;};
 
+#endif /* CONSTANTS_H_ */

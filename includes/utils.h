@@ -2,6 +2,9 @@
 #include <string>
 #include <vector>
 
+#ifndef UTILS_H_
+#define UTILS_H_
+
 //sorts vector inplace based on mySortOrder (inplace means the vector is modified)
 //returns nothing
 void sort(const SORT_ORDER &mySortOrder,std::vector<process> &myProcesses);
@@ -17,3 +20,5 @@ int getSize(std::vector<process> &myProcesses);
 //if cannot correct, then drop row
 //return number of rows in myProcesses
 int handleMissingData(std::vector<process> &myProcesses);
+
+#endif /* UTILS_H_ */
